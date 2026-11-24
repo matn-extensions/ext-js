@@ -1,0 +1,16 @@
+{
+  "id": "matn.ext.js",
+  "name": "JavaScript & TypeScript Language Server",
+  "version": "1.0.0",
+  "author": "Matn Team",
+  "description": "Real-time JS/TS diagnostics, IntelliSense, hover docs via typescript-language-server",
+  "category": "languages",
+  "type": "lsp",
+  "language": "javascript",
+  "server": "typescript-language-server",
+  "command": "typescript-language-server",
+  "args": ["--stdio"],
+  "extensions": [".js", ".jsx", ".ts", ".tsx", ".mjs", ".cjs"],
+  "rootMarkers": ["package.json", "tsconfig.json", "jsconfig.json", ".git"],
+  "repository": "https://github.com/matn-extensions/ext-js"
+}
